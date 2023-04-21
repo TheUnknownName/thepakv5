@@ -1,0 +1,21 @@
+<setupv5.sh>
+    <tag_header>
+        <messages>
+            <message id="title">Setupv5.sh - Installer Script</message>
+            <message id="description">This script installs and configures software packages.</message>
+        </messages>
+    </tag_header>
+    <install_pkg>
+        <messages>
+            <message id="is_installed">${GREEN} ${pkg} ${NOCOLOR} is already installed.</message id="is_installed">
+            <message id="is_notinstalled">${GREEN}${RED}${pkg} is not installed. Installing ${pkg}...${NOCOLOR}</message id="is_installed">
+        </messages>
+    </install_pkg>
+    <wget_file>
+        <messages>
+            <message id="error1">Terjadi kesalahan saat mengunduh file %s\n</message id="is_installed">
+            <message id="error2">File %s tidak ada\n</message id="is_installed">
+            <message id="error3">Keluar dari fungsi dengan nilai 2\n</message id="is_installed">
+        </messages>
+    </wget_file>
+</setupv5.sh>
